@@ -5,12 +5,12 @@ public static void main(String[] args) {
 	System.out.println("Enter the limit:");
 	int limit=sc.nextInt();
 	int i;
-	for( i=0;i<limit;i++) { 
-		if (i%2==0){
+	for( i=2;i<limit;i+=2) { 
 		
 		 System.out.println(i);
-	}
+	
 	}	
 	}
  
 }
+
